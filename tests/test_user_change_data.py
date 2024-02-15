@@ -3,11 +3,9 @@ import pytest
 
 from http import HTTPStatus
 
-from data import MessageText, UserData, GenerateUser
+from data import MessageText, UserData
 from helpers import BaseMethods, CheckMethods
 from urls import Urls
-
-from conftest import *
 
 
 @allure.feature("Проверка изменения пользователя")

@@ -1,7 +1,7 @@
 import pytest
 from urls import Urls
-from data import Order, GenerateUser
-from helpers import BaseMethods
+from data import Order
+from helpers import BaseMethods, GenerateUser
 
 
 @pytest.fixture

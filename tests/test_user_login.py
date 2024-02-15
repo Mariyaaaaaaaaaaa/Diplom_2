@@ -5,9 +5,7 @@ from data import MessageText, UserData
 from http import HTTPStatus
 
 from urls import Urls
-from helpers import BaseMethods, CheckMethods
-from conftest import *
-
+from helpers import CheckMethods, BaseMethods
 
 
 @allure.feature("Проверка входа в систему")

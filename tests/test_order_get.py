@@ -3,11 +3,9 @@ import pytest
 
 from http import HTTPStatus
 
-from data import MessageText, GenerateUser
-from helpers import BaseMethods, CheckMethods
+from data import MessageText
+from helpers import BaseMethods, CheckMethods #, GenerateUser
 from urls import Urls
-
-from conftest import *
 
 
 @allure.feature("Проверка получения заказа пользователя")
